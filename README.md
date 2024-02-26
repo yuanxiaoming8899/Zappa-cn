@@ -2189,9 +2189,7 @@ db_string = os.environ.get('DB_CONNECTION_STRING')" tabindex="0" role="button">
 <span class="pl-en">@<span class="pl-s1">xray_recorder</span>.<span class="pl-en">capture</span>(<span class="pl-s">'hello'</span>)</span>
 <span class="pl-k">def</span> <span class="pl-s1">hello_world</span>:
     <span class="pl-k">return</span> '<span class="pl-v">Hello</span>'</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="from aws_xray_sdk.core import xray_recorder
-
-app = Flask(__name__)
+   
 
 xray_recorder.configure(service='my_app_name')
 
